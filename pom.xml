@@ -29,12 +29,12 @@
   
   <distributionManagement>
   <repository>
-      <id>repoR</id>
-      <url>http://localhost:8080/nexus/content/repositories/repoR/</url>
+      <id>firstrepo</id>
+      <url>http://localhost:8081/repository/firstrepo/</url>
    </repository>
    <snapshotRepository>
-      <id>repoS</id>
-      <url>http://localhost:8080/nexus/content/repositories/repoS/</url>
+      <id>snaprepo</id>
+      <url>http://localhost:8081/repository/snaprepo/</url>
    </snapshotRepository>
    
 </distributionManagement>
