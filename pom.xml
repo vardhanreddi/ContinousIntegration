@@ -27,19 +27,6 @@
     </dependency>
   </dependencies>
   
-  <distributionManagement>
-  <repository>
-      <id>firstrepo</id>
-      <url>http://localhost:8081/repository/firstrepo/</url>
-   </repository>
-   <snapshotRepository>
-      <id>snaprepo</id>
-      <url>http://localhost:8081/repository/snaprepo/</url>
-   </snapshotRepository>
-   
-</distributionManagement>
-
-
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
